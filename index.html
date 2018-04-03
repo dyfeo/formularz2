@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+     <form action="https://formspree.io/anna.stambulska@gmail.com"
+      method="POST" method="">
+       
+<!--       (label+input)*4+(label+textarea)+input:submit-->
+        
+        <label for="name">Imię</label>
+        <input type="text" id="name" name="name">
+            <br>
+            
+        <label for="nazwisko">Nazwisko</label>
+        <input type="text" id="nazwisko" name="nazwisko"> 
+            <br>
+            
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+            <br>
+            
+        <label for="telefon">Telefon</label>
+        <input type="tel" id="telefon" name="tel">
+            <br>
+            
+        <label for="wybor">Wybierz miasto:</label>
+            <select name="miasta" id="wybor">
+                <option value="krakow">Kraków</option>
+                <option value="warszawa">Warszawa</option>
+                <option value="gdansk">Gdańsk</option>
+            </select>
+            <br>
+        
+        <label for="plec">Płeć</label>
+        <label for="woman"><input type="radio" name="gender" id="woman">kobieta</label>
+        
+        <label for=""><input type="radio" name="gender">mężczyzna</label>
+        
+        <p>Zgoda na przetwarzanie danych osobowych<input type="checkbox" name="zgoda"></p>
+        
+        <label for="wpis">Wiadomość</label>
+        <textarea name="" id="wpis" cols="30" rows="10"></textarea>
+            <br>
+            
+        <input type="submit" value="wyslij">
+    </form>
+</body>
+</html>
